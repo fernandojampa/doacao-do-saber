@@ -1,0 +1,72 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+a.espacamento {
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+a.espacamento:hover {
+  text-decoration: underline;
+}
+
+#grad1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  height: 1000px;
+  background-color: purple;
+  background-image: linear-gradient(to right, purple, pink);
+}
+
+.student-book {
+  width: 0.1rem;
+  height: 0.1rem;
+}
+
+#mensagem-francis-bacon {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.botao {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.fa {
+  color: red;
+}
+
+.siga-nos {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #mensagem-francis-bacon {
+    font-size: 20px;
+  }
+
+  .botao {
+    justify-content: center;
+  }
+}
